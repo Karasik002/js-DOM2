@@ -1,10 +1,9 @@
-/* Загальні стилі */
 body {
     font-family: Arial, sans-serif;
-    background-color: #000;  /* Чорний фон */
+    background-color: #000; 
     margin: 0;
     padding: 0;
-    color: white;  /* Білий текст для контрасту на чорному фоні */
+    color: white; 
 }
 
 .container {
@@ -14,13 +13,11 @@ body {
     text-align: center;
 }
 
-/* Стилі для заголовка */
 h1 {
     color: #fff;
     font-size: 2rem;
 }
 
-/* Галерея картинок */
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +33,6 @@ h1 {
     border-radius: 10px;
 }
 
-/* Кнопки */
 .buttons {
     margin-top: 20px;
     display: flex;
@@ -56,12 +52,12 @@ button {
     font-size: 1rem;
     cursor: pointer;
     border: none;
-    background-color: #32CD32;  /* Салатовий колір */
+    background-color: #32CD32; 
     color: white;
     border-radius: 5px;
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #228B22;  /* Темніший салатовий при наведенні */
+    background-color: #228B22;
 }
